@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #555;
+    line-height: 1.5;
+}
+button {
+    padding: 10px 16px;
+    border: none;
+    background-color: #25eb2f;
+    color: #ffffff;
+    cursor: pointer;
+}
