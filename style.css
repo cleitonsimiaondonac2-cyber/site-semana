@@ -16,10 +16,85 @@ p {
     color: #555;
     line-height: 1.5;
 }
-button {
-    padding: 10px 16px;
-    border: none;
-    background-color: #25eb2f;
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: #2563eb;
     color: #ffffff;
-    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
 }
+
+.btn:hover {
+    background-color: #1e4fd6;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+header, nav, section, footer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}           
+section#hero {
+    text-align: center;
+}
+section#hero h1 {
+    font-size: 2em;
+}
+section#hero p {
+    font-size: 1.2em;
+}
+
+section#contact label {     
+    margin-bottom: 5px;
+}
+section#contact input, section#contact textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+section#contact button {
+    align-self: flex-start;
+}           
+section#about p {
+    margin-bottom: 10px;
+}                               
+section#footer p {
+    margin: 5px 0;
+}
+section#contacto {
+    margin-top: 20px;
+}   
+section#contacto p {
+    margin: 5px 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
